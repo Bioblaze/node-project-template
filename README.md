@@ -123,6 +123,10 @@ npx eslint sample-file.js
 
 You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
 
+## Useful Commands
+
+
+
 ## Built with
 
 * [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
