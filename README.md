@@ -1,7 +1,7 @@
 # Node Project Template
 ## Public Template Project
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)[![Discord](https://img.shields.io/discord/439089694379343872)](https://discord.gg/vafAXJV)
 
 
 
