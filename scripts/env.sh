@@ -1,0 +1,1 @@
+export $(sed 's/[[:blank:]]//g; /^#/d' .env | xargs)

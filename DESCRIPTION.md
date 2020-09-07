@@ -1,31 +1,11 @@
-# Submission name
+# Node Project Template
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fringilla sodales. Etiam elementum a arcu vel fringilla. Nulla ac efficitur felis. In a nisi bibendum, efficitur felis vel, consectetur quam. Aenean ornare justo velit, sed malesuada massa efficitur ut. Sed non augue vel risus tempus lacinia ac nec est. Nunc vel finibus felis. Vivamus felis diam, porta sed rhoncus eu, luctus eget justo. 
+The focus for this Project was to make something simple to just pull or use as a template for standard Node.js Projects, it includes support for standard deployment to a Server. Also includes Docker Support as well, as Base Structure for General Node.js Applications.
 
-Mauris odio ante, rhoncus et varius vel, vulputate et enim. Aliquam erat volutpat. Proin lacinia libero velit, a dictum sapien ultricies quis. Vivamus dolor nibh, efficitur in ipsum vitae, faucibus eleifend felis. Praesent consectetur turpis sit amet lorem tempor cursus. Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
+This Project is going to be extended apon to make a simple and effective way for people to develop in Node.js without spending hours of time setting up their project base before they even begin to do the structure of their Project itself.
 
-[Project website](https://code-and-response.github.io/Project-Sample/)
-
-## Section 1
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fringilla sodales. Etiam elementum a arcu vel fringilla. Nulla ac efficitur felis. In a nisi bibendum, efficitur felis vel, consectetur quam. Aenean ornare justo velit, sed malesuada massa efficitur ut. Sed non augue vel risus tempus lacinia ac nec est. Nunc vel finibus felis. Vivamus felis diam, porta sed rhoncus eu, luctus eget justo. 
-
-### Subsection 1.1
-
-Mauris odio ante, rhoncus et varius vel, vulputate et enim. Aliquam erat volutpat. Proin lacinia libero velit, a dictum sapien ultricies quis. Vivamus dolor nibh, efficitur in ipsum vitae, faucibus eleifend felis.
-
-### Subsection 1.2
-
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
-
-## Conclusion
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fringilla sodales. Etiam elementum a arcu vel fringilla. Nulla ac efficitur felis. In a nisi bibendum, efficitur felis vel, consectetur quam. Aenean ornare justo velit, sed malesuada massa efficitur ut. Sed non augue vel risus tempus lacinia ac nec est. Nunc vel finibus felis. Vivamus felis diam, porta sed rhoncus eu, luctus eget justo. 
-
-### Results
-
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
+[Project website](https://bioblaze.github.io/node-project-template/)
 
 ## Acknowledgments
 
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
+Google... I love you <3

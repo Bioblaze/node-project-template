@@ -4,6 +4,6 @@ services:
     container_name: ${SERVICE}
     image: ${PROJECT}:latest
     volumes:
-      - .:/usr/src/app
+      - ./:/usr/src/app
     env_file: .env
     restart: unless-stopped

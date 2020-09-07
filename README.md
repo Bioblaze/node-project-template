@@ -1,5 +1,5 @@
-# Unreal User System
-## User Backend
+# Node Project Template
+## Public Template Project
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
@@ -25,28 +25,16 @@
 1. [Acknowledgments](#acknowledgments)
 
 ## Short description
+    Base Template for any Node.js Application.
 
 ### What's the problem?
-
-
+    It can take minutes, to sometimes hours to setup the Base Project, get your Process Manager Setup, Figure out your Docker Support, get your Development Tools setup, maybe even setup your Readme with all the commands you need and copy/paste them into the terminal.
 
 ### How can technology help?
-
-
+    It has a simple, base structure to build off of for any Node.js Application Development. It comes with a complete Makefile with docker-compose and docker support along with pm2 deployment support.
 
 ### The idea
-
-
-## Demo video
-
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
-
-## The architecture
-
-1. 
-2. 
-3. 
-4. 
+    I got sick and tired of setting up Node.js Micro Service projects, and after doing it 1000 times I just said.. Template time, and here we are.
 
 ## Long description
 
@@ -56,85 +44,59 @@
 
 [RoadMap](ROADMAP.md)
 
-![Roadmap](roadmap.jpg)
-
 ## Getting started
-
-
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+1. Docker Installed
+2. If you are a Windows User please Install Windows SubSystem Linux (Ubuntu)
+2. 1. Make sure you have `make` installed. and WSL2 along with patch kernal & Docker-edge
+3. Install Node.js
+3. 1. Install PM2 Globally
+4. Rename the `example.env` file to `.env` and fill in the Information requested as well as put your Variables there.
 
-```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Just Git Pull the Repo, or download a Zip of it.
 
-Say what the step will be, for example
-
-```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
-```
-
-And repeat
-
-```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instance
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
-
-## Live demo
-
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
+## Projects using Template
+    Currently working on utilizing this in a few Projects will List them here, once they are ready.
 
 ## Useful Commands
 
-
+1. make npm
+1. 1. Installs Project Deps utilizing NPM
+2. make yarn
+2. 1. Installs Project Deps utilizing Yarn
+3. make start
+3. 1. Starts Project Locally with what the NODE_ENV has set. production, staging, or development
+4. make stop
+4. 1. Stops the Project Locally
+5. make build
+5. 1. Builds the Project into a docker container.
+6. make up
+6. 1. Brings the Docker Container up for Testing utilizing Docker Compose
+7. make logs
+7. 1. Allows you to see all the Logs for a Current Project
+8. make down
+8. 1. Brings the Docker Container down
+9. make console
+9. 1. Opens a console into the Container for the Project
+10. make pm2deploy
+10. 1. Deploy's the Project too whatever server it is set too, with settings based on NODE_ENV
+11. make pm2setup
+11. 1. This will Setup the Server the Project is being Deployed too.
+12. make pm2update
+12. 1. Update a Project on the Deployment Servers.
 
 ## Built with
 
-* [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Node.js](https://nodejs.org/en/about/) - Base of the Project
+* [Docker](https://www.docker.com/why-docker) - Easy Local Testing
+* [PM2](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/) - Fastest way to keep a process for testing 
+* [GIT](https://git-scm.com/about) - Doing the Storage and Updating WOOT
+* [Make](https://www.gnu.org/software/make/manual/make.html) - I couldn't live without you, I want you too know <3
 
 ## Contributing
 
@@ -142,13 +104,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Bioblaze/node-project-template/tags).
 
 ## Authors
 
 * **Randolph `Bioblaze Payne` Aarseth** - *Initial work* - [Bioblaze](https://github.com/Bioblaze)
 
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Bioblaze/node-project-template/graphs/contributors) who participated in this project.
 
 ## License
 

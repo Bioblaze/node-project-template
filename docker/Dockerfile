@@ -42,7 +42,7 @@ RUN chmod -R a+wrx /usr/src/app
 # Set the Base Directory as our Working Directory
 WORKDIR /usr/src/app
 # A wildcard is used to ensure both package.json AND package lock.json are copied
-COPY package*.json /usr/src/app
+COPY ./package*.json /usr/src/app
 # Install Production Quality Modules
 RUN npm install
 # RUN yarn
