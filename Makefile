@@ -17,7 +17,7 @@ yarn:
 	yarn install
 # Starts with PM2
 start:
-	pm2 start ecosystem.config.js
+	pm2 start ecosystem.config.js ${NODE_ENV}
 # Stops with PM2
 stop:
 	pm2 stop ecosystem.config.js
